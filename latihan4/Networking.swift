@@ -32,7 +32,7 @@ class Networkinga{
                             Product(title: namaProduk, price: price, desc: deskripsi, idProduct: idP)
                         )
                     }
-                    print("SEMUA PRODUK", daftarProduk)
+                    print("SEMUA PRODUK", daftarProduk)//ini buat print yaww
                 case.failure(let error):
                     print(" error", error)
                 }
